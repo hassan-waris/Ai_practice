@@ -1,0 +1,3 @@
+For this project, my idea was to create a system that looks at human behaviours and the various different factors that lead up to potential violence or other harm, the idea was that this could be put anywhere track how many people have entered and left venues and events and then keep all workers and other people safe.
+
+I used a version of behavioural cloning and other video of human behaviour patterns to make this project.

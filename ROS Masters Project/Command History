@@ -1,0 +1,435 @@
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo apt install curl # if you haven't already installed curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+sudo apt update
+sudo apt install ros-noetic-desktop-full
+source /opt/ros/noetic/setup.bash
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+sudo apt install python3-rosdep
+sudo rosdep init
+rosdep update
+mkdir catkin_ws_rss
+cd catkin_ws_rss/
+mkdir src
+cd src/
+catkin_init_workspace 
+cd catkin_ws_rss/src/
+catkin_create_pkg rss_linux_pkg rospy std_msgs
+cd rss_linux_pkg/
+ls
+la
+ls
+chmod +x '/media/hassanwaris/Parallels Tools/install' 
+./'/media/hassanwaris/Parallels Tools/install' 
+cd /media/hassanwaris/Parallels\ Tools/
+./install
+sudo chmod +x install
+cd installer/
+sudo ./install-service.sh 
+./install-service.sh 
+cd
+sudo ./install
+cd /media/hassanwaris/Parallels\ Tools/
+sudo ./install
+cd catkin_ws_rss/
+catkin_mak
+catkin_make
+source ±/.bashrc
+source ~/.bashrc
+export TURTLEBOT3_MODEL=waffle
+source devel/setup.bash
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+cd
+cd catkin_ws_rss/
+catkin_make
+rm -rf build/ devel/
+catkin_make
+source ~/.bashrc
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+rostopic
+cd
+turtlebot3-launch
+cd catkin_ws_rss/
+tree
+sudo apt install tree
+tree
+catkin_make
+turtlebot3-launch
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+echo $ROS_PACKAGE_PATH
+source ~/catkin_ws_rss/devel/setup.bash
+catkin_make
+cd
+sudo apt install ros-noetic-desktop-full
+sudo apt update
+sudo apt upgrade
+rviz
+$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+chmod +x ./install_ros_noetic.sh 
+bash ./install_ros_noetic.sh 
+sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy   ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc   ros-noetic-rgbd-launch ros-noetic-rosserial-arduino   ros-noetic-rosserial-python ros-noetic-rosserial-client   ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server   ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro   ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz   ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
+sudo apt install ros-noetic-dynamixel-sdk
+sudo apt install ros-noetic-turtlebot3-msgs
+sudo apt install ros-noetic-turtlebot3
+source ~/.bashrc
+ls
+cd catkin_ws
+ls
+catkin_make
+cd src/
+mkdir
+mkdir scripts
+ls
+rm -rf scripts/
+tree
+catkin_create_pkg rss_linux_pkg rospy std_msgs
+cd rss_linux_pkg/
+mkdir scripts
+cd ~/catkin_ws
+catkin_make
+source ~/.bashrc
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+source devel/setup.bash
+cd ~/catkin_ws/src
+git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+cd ~/catkin_ws && catkin_make
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+exit
+cd src/rss_linux_pkg/src/
+ls
+./move_turtlebot_circle.py 
+vim move_turtlebot_circle.py 
+./move_turtlebot_circle.py 
+./move_turtlebot_f
+./move_turtlebot_forward_backward.py 
+touch hassan_waris.py
+vm hassan_waris.py 
+vim hassan_waris.py 
+sudo apt install vim
+vim hassan_waris.py 
+ls
+chmod +x hassan_waris.py 
+ls
+./hassan_waris.py 
+vim hassan_waris.py 
+./hassan_waris.py 
+vim hassan_waris.py 
+./hassan_waris.py 
+ls
+chmod +x move_turtlebot_square.py 
+./move_turtlebot_square.py 
+pip3 install rospy
+sudo apt install rospy
+./move_turtlebot_square.py 
+sudo apt-get install python-rospy
+sudo apt-get update
+catkin_make
+cd
+cd catkin_ws
+catkin_make
+source devel/setup.bash
+./move_turtlebot_square.py 
+cd src/rss_linux_pkg/src/
+./hassan_waris.py 
+./move_turtlebot_circle.py 
+./move_turtlebot_square.py 
+exit
+cd catkin_ws/
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+export TURTLEBOT3_MODEL=waffle_pi
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+roscore
+ls
+cd src/rss_linux_pkg/src/
+ls
+./move_turtlebot_
+./move_turtlebot_square.py 
+cd catkin_ws/
+ls
+rostopic list
+cd src
+rostopic list
+ls
+cd rss_linux_pkg/s
+cd rss_linux_pkg
+rostopic list
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+rostopic
+rostopic list
+cd ../..
+rostopic list
+source devel/setup.bash
+rostopic list
+rostopic echo / topic
+rostopic echo /topic
+cd src
+rostopic type cmd_vel geometry_msgs/Twist
+cd
+cler
+clear
+cd catkin_ws/
+source devel/setup.bash
+rosrun turtlesim turtlesim_node 
+cd
+sudo snap install --classic code
+code
+sudo snap remove code
+sudo snap install code
+sudo snap install code --classic
+snap changes
+snap abort 5
+sudo snap install code --classic
+snap changes
+snap abort 5
+snap abort 6
+snap changes
+ls
+cd src
+ls
+cd rss_pubsub_pkg/scripts/
+ls
+./hassanwaris_publisher.py 
+touch hassanwaris_publisher_line.py
+ls
+chmod +x hassanwaris_publisher_line.py 
+./hassanwaris_publisher_line.py 
+rqt_graph
+rosnode infor  turtlesim_node
+rosnode info turtlesim_node
+rosmsg show geometry_msgs/Twist
+rosmsg show geometry_msgs/TwistWithCovariance
+dc
+cd
+mkdir ~/rss2_catkin_ws
+cd rss2_catkin_ws/
+mkdir src
+cd src/
+catkin_init_workspace 
+catkin_create_pkg rss_pusub_pkg rospy std_msgs geometry_msgs
+ls
+mkdir scripts
+ls
+mkdir launch
+ls
+cd scripts/
+ls -la
+touch hassanwaris_publisher.py
+cd scripts/
+ls -la
+chmod +x hassanwaris_publisher.py 
+touch hassanwaris_subscriber.py
+ls -la
+chmod +x hassanwaris_subscriber.py 
+ls -la
+vim hassanwaris_publisher.py 
+vim hassanwaris_subscriber.py 
+cd ../..
+catkin_make
+ls
+source devel/bash.setup
+source devel/setup.bash 
+rm -rf devel/ build/
+ls
+cd src/scripts/
+ls
+ls -la
+cd
+cd rss2_catkin_ws/
+rosrun rss_pusub_pkg hassanwaris_publisher.py
+catkin_make
+source devel/setup.bash 
+rosrun rss_pusub_pkg hassanwaris_publisher.py
+rm -rf devel/ build/
+catkin_make
+source devel/setup.bash 
+rosrun rss_pusub_pkg hassanwaris_publisher.py
+rosrun rss_pusub_pkg hassanwaris_subscriber.py 
+clear
+rm -rf devel/ build/
+catkin_make
+source devel/setup.bash 
+rm -rf devel/ build/
+source devel/setup.bash 
+catkin_make
+source devel/setup.bash 
+rosrun rss_pusub_pkg hassanwaris_subscriber.py 
+cear
+clear
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+rviz
+rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map world 5
+rviz
+rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 map my_frame 100
+cd ../..
+roscore
+cd
+cd rss2_catkin_ws/
+roscore
+cd src/rss_pubsub_pkg/scripts/
+ls
+./hassanwaris_publisher_line.py 
+ls
+cd ..
+ls
+cd ..
+ls
+cd rss_pubsub_pkg/scripts/
+touch launch-file.launch
+cd
+cd rss2_catkin_ws/
+rosrun turtlebot3_gazebo launch-file.launch
+catkin_make
+rosrun turtlebot3_gazebo launch-file.launch
+ls
+cd src/rss_pubsub_pkg/scripts/
+ls
+chmod +x launch-file.launch 
+./launch-file.launch 
+rosrun turtlebot3_gazebo launch-file.launch
+cd ..
+cd ../..
+source devel/setup.bash
+rosrun turtlebot3_gazebo launch-file.launch
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+rqt_graph
+ls
+cd src/rss_pubsub_pkg/scripts/
+;s
+ls
+./hassanwaris_publisher
+./hassanwaris_publisher.py 
+./hassanwaris_subscriber.py 
+cd
+cd catkin_ws/
+cd src/rss_linux_pkg/src/
+ls
+./move_turtlebot_square.py 
+rostopic list
+rosun tf tf_echo
+rosrun tf tf_echo
+rviz
+export TURTLEBOT3_MODEL=waffle
+rviz
+rosrun rviz rviz
+cd catkin_ws/
+roscore
+ls
+cd src/rss_linux_pkg/src/
+ls
+./move_turtlebot_square.py 
+rosrun rss_linux_pkg move_turtlebot_square.py 
+cd ..
+cd scripts/
+ls
+./bash_dancing_turtle_echo.sh 
+cd ..
+cd src
+ls
+cd ..
+cd scripts/
+ls
+./bash_dancing_turtle_echo.sh circle
+ls
+cd
+cd rss2_catkin_ws/
+roslaunch rss_linux_pkg launch_pubsub.launch
+cd src/rss_pubsub_pkg/scripts/
+;s
+ls
+./hassanwaris_pubsub.py 
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+touch pub.launch
+roslaunch turtlebot3_gazebo multi_turtlebot3.launch 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo multi_turtlebot3.launch 
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+exit
+ls
+cd catkin_ws/
+ls
+cd src/
+ls
+cd Final_project/
+catkin_make
+mkdir src
+catkin_make
+ls
+cd src
+ls
+cd .. 
+cd models
+ls
+cd ..
+mkdir world
+ls
+exit
+roscore
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launc
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_simulation.launch 
+ls
+cd catkin_ws/
+ls
+cd src/
+ls
+cd
+mkdir Project
+cd Project/
+mkdir src
+ls
+catkin_make
+ls
+cd src/scripts/
+python follow_coordinate.py
+python3 follow_coordinate.py
+cd .. 
+ls
+cd src
+ls
+cd scr
+cd scripts/
+ls
+cd
+roslaunch turtlebot3_gazebo turtlebot3_simulation.launch 
+roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch 
+c
+ls
+cd Project/
+ls
+ls src/scripts
+ls
+cd src/scripts/
+ls
+chmod +x follow_coordinate.py 
+./follow_coordinate.py 
+clear
+./follow_coordinate.py 
+roscore
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+export TURTLEBOT3_MODEL = waffle
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 

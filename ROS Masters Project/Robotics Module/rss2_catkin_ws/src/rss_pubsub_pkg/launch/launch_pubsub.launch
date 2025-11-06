@@ -1,0 +1,3 @@
+<launch> 
+<node name="hassanwaris_pubsub" pkg="rss_pubsub_pkg" type="hassanwaris_pubsub.py" output="screen"/>
+</launch>

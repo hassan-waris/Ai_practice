@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlebot3_gazebo" type="hassanwaris_publisher_line.py" name="hassanwaris_publisher_line_node" output="screen"/>
+</launch>
+

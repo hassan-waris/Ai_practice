@@ -1,0 +1,10 @@
+(cl:defpackage rss2_msgsrv_pkg-srv
+  (:use )
+  (:export
+   "SRV_TURTLEBOT3_MOVE"
+   "<SRV_TURTLEBOT3_MOVE-REQUEST>"
+   "SRV_TURTLEBOT3_MOVE-REQUEST"
+   "<SRV_TURTLEBOT3_MOVE-RESPONSE>"
+   "SRV_TURTLEBOT3_MOVE-RESPONSE"
+  ))
+

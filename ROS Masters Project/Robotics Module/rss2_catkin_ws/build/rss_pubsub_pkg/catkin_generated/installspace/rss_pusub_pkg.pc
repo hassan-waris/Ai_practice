@@ -1,0 +1,8 @@
+prefix=/home/hassanwaris/rss2_catkin_ws/install
+
+Name: rss_pusub_pkg
+Description: Description of rss_pusub_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

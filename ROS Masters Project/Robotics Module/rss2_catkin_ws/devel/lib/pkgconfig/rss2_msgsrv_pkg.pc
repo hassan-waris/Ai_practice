@@ -1,0 +1,8 @@
+prefix=/home/hassanwaris/rss2_catkin_ws/devel
+
+Name: rss2_msgsrv_pkg
+Description: Description of rss2_msgsrv_pkg
+Version: 0.0.0
+Cflags: -I/home/hassanwaris/rss2_catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs rospy std_msgs message_runtime

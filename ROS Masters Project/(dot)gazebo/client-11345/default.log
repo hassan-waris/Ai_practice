@@ -1,0 +1,18 @@
+Gazebo multi-robot simulator, version 11.11.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1698087769 549145439) [Msg] Waiting for master.
+(1698087769 556247402) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1698087769 556273447) [Msg] Publicized address: 10.211.55.7
+(1698087769 556440401) Loaded .ini file from: "/home/hassanwaris/.gazebo/gui.ini"
+(1698087772 14548174) [Err] [InsertModelWidget.cc:403] Missing model.config for model "/home/hassanwaris/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace"
+(1698087772 14883618) model.config file is missing in directory["/home/hassanwaris/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace"]
+(1698087772 15156327) [Err] [InsertModelWidget.cc:403] Missing model.config for model "/home/hassanwaris/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace_2020"
+(1698087772 15425003) model.config file is missing in directory["/home/hassanwaris/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace_2020"]
+(1698087772 15797818) [Err] [InsertModelWidget.cc:403] Missing model.config for model "/home/hassanwaris/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_common_meshes"
+(1698087772 16070458) model.config file is missing in directory["/home/hassanwaris/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_common_meshes"]
+(1698087774 473110236) No spacenav daemon found. Spacenav functionality is disabled
+(1698087811 272974931) [Wrn] [Publisher.cc:135] Queue limit reached for topic /gazebo/default/user_camera/pose, deleting message. This warning is printed only once.

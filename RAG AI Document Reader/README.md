@@ -1,0 +1,1 @@
+For this project, i had the idea of creating a system that would allow the user to upload a pdf file and then ask it questions, this is my very basic version of one and for me to get a rough idea of how it works and get some experience with RAG, but I am currently working on a full in-depth version with front and backend. 
