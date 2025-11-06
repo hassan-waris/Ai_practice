@@ -1,1 +1,1 @@
-##For this project during my masters I was told I need to create a price prediction model for AutoTrader using their live data, they're a partner of MMU, the data that was provided cant be shared so it won't be included in my projects repo
+For this project during my masters I was told I need to create a price prediction model for AutoTrader using their live data, they're a partner of MMU, the data that was provided cant be shared so it won't be included in my projects repo
